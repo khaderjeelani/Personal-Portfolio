@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="images/my photo.png" alt="MOHAMMED ABDUL KHADER JEELANI" width="80" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="MOHAMMED ABDUL KHADER JEELANI">
+            MOHAMMED ABDUL<br />
+            KHADER JEELANI
+          </h1>
+
+          <p class="title">Software developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="khaderjeelani806@gmail.com" class="contact-link">khaderjeelani806@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 8374377806" class="contact-link">+91 8374377806</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-06-03">June 03, 2003</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hyderabad, Telangana, India.</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a
+              href="https://www.linkedin.com/in/khader-jeelani/"
+              class="social-link"
+              target="_blank"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/khaderjeelani" class="social-link" target="_blank">
+              <ion-icon name="logo-GitHub"></ion-icon>
+            </a>
+          </li>
+        
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a passionate and results-driven Software Developer with hands-on
+            experience in building efficient, scalable, and user-centric
+            applications. Skilled in Java, Python, and SQL, I thrive in agile
+            environments where continuous learning and innovation are key. With a
+            solid understanding of cloud technologies, AI/ML concepts, and modern
+            web development, I’ve contributed to impactful projects like an
+            AI-powered healthcare system and dynamic weather apps.
+          </p>
+
+          <p>
+            I enjoy solving real-world problems through clean, functional code and
+            intuitive design. Whether it’s developing backend logic in Java or
+            crafting responsive UI with HTML, CSS, and JavaScript, I aim to deliver
+            high-quality, maintainable solutions that make a difference.
+          </p>
+          <p>
+            From web development internships to certifications in Generative AI,
+            Data Visualization, and Agile Project Management, my journey reflects a
+            commitment to growth, creativity, and technology that empowers.
+          </p>
+          <p>Let’s build something amazing together.</p>
+        </section>
+
+        <!--
+          - service
+        -->
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="images/web design icon.png" alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  high-quality user interfaces using Figma, focusing on clean,
+                  intuitive, and professional-level UI/UX.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="images/web-dev icon.png" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="images/software-dev icon.png" alt="Software Development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development</h4>
+
+                <p class="service-item-text">
+                  scalable software using Java, Python, and SQL, with experience in
+                  debugging, cloud/AI, and modern web tech, focused on clean, agile
+                  development.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="images/data analyst icon.png" alt="Data Analyst icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analyst</h4>
+
+                <p class="service-item-text">
+                  interactive dashboards using Power BI, turning complex data into
+                  clear, actionable insights to support data-driven decision-making.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <div class="timeline-row">
+                <h4 class="h4 timeline-item-title">
+                  Marri Laxman Reddy Institute of Technology and Management
+                </h4>
+                <span class="timeline-year">Nov 2021 — May 2025</span>
+              </div>
+              <div class="timeline-row">
+                <p class="timeline-text">B.Tech in Computer Science Engineering (AIML)</p>
+                <span class="timeline-cgpa">CGPA: 7.99</span>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <div class="timeline-row">
+                <h4 class="h4 timeline-item-title">NARAYANA JUNIOR COLLEGE</h4>
+                <span class="timeline-year">June 2019 — may 2021</span>
+              </div>
+              <div class="timeline-row">
+                <p class="timeline-text">MPC Intermediate</p>
+                <span class="timeline-cgpa">Percentage: 79.6%</span>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <div class="timeline-row">
+                <h4 class="h4 timeline-item-title">VASISHTA VIDYALAYA HIGH SCHOOL</h4>
+                <span class="timeline-year">June 2018 — May 2019</span>
+              </div>
+              <div class="timeline-row">
+                <p class="timeline-text">10TH Standard</p>
+                <span class="timeline-cgpa">CGPA: 8.3</span>
+              </div>
+            </li>
+          </ol>
+        </section>
+          
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+  <div class="timeline-row">
+    <h4 class="h4 timeline-item-title" style="margin: 0; color: var(--orange-yellow-crayola);">
+      Web Development Intern--  CodersCave (Remote)
+    </h4>
+    <a href="https://drive.google.com/file/d/1QVQG_Cjzp3LP9icSdN7gu85KQCYBdIHU/view?usp=sharing" target="_blank" class="certificate-link" title="View Certificate" style="color: var(--orange-yellow-crayola); font-weight: bold;">
+      <ion-icon name="document-outline"></ion-icon> Certificate
+    </a>
+  </div>
+  <div class="timeline-row">
+    <span class="timeline-year" style="color: var(--orange-yellow-crayola);">Oct 2023 – Nov 2023</span>
+  </div>
+  <p class="timeline-text">
+    • Developed and deployed responsive web applications with a focus on user-centric design and bug resolution.<br>
+    • Built a Netflix clone (Project) using HTML, CSS, and JavaScript to replicate its UI and provide a seamless, interactive user experience.
+  </p>
+</li>
+
+                    <li class="timeline-item">
+  <div class="timeline-row">
+    <h4 class="h4 timeline-item-title" style="margin: 0; color: var(--orange-yellow-crayola);">
+      Java Development Intern--  Oasis Infobyte (Remote) 
+    </h4>
+    <a href="https://drive.google.com/file/d/1Jja2MLh67Fu-xBcPwxwLIrimihq9SZH_/view?usp=sharing" target="_blank" class="certificate-link" title="View Certificate" style="color: var(--orange-yellow-crayola); font-weight: bold;">
+      <ion-icon name="document-outline"></ion-icon> Certificate
+    </a>
+  </div>
+  <div class="timeline-row">
+    <span class="timeline-year" style="color: var(--orange-yellow-crayola);">Apr 2024 – May 2024
+</span>
+  </div>
+  <p class="timeline-text">
+    • Implemented backend logic and bug fixes for Java applications.<br>
+    • Gained hands-on experience with code troubleshooting and debugging
+</li>
+
+                    <li class="timeline-item">
+  <div class="timeline-row">
+    <h4 class="h4 timeline-item-title" style="margin: 0; color: var(--orange-yellow-crayola);">
+      AI/ML Virtual Intern--    AICTE – Google for Developers (Remote) 
+    </h4>
+    <a href="https://drive.google.com/file/d/1ZmkoHciyc8OLKJPwCvDdNc6djiw4hYps/view?usp=sharing" target="_blank" class="certificate-link" title="View Certificate" style="color: var(--orange-yellow-crayola); font-weight: bold;">
+      <ion-icon name="document-outline"></ion-icon> Certificate
+    </a>
+  </div>
+  <div class="timeline-row">
+    <span class="timeline-year" style="color: var(--orange-yellow-crayola);">May 2024 – Jun 2024
+</span>
+  </div>
+  <p class="timeline-text">
+    • Troubleshooted ML model training and deployment issues using Python and TensorFlow.<br>
+    • Focused on data preprocessing, error debugging, and performance tuning.
+  </p>
+</li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+  <h3 class="h3 skills-title">My Skills</h3>
+
+  <div class="skills-group">
+    <h4 class="h4">Programming Languages</h4>
+    <ul class="skills-list content-card">
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/java_logo.png" alt="Java" class="skill-logo">
+          <h5 class="h5">Java</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/python logo.png" alt="Python" class="skill-logo">
+          <h5 class="h5">Python</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/sql-3d-icon-png.webp" alt="SQL" class="skill-logo">
+          <h5 class="h5">SQL</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="skills-group">
+    <h4 class="h4">Web Development</h4>
+    <ul class="skills-list content-card">
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/html-5_logo.png" alt="HTML5" class="skill-logo">
+          <h5 class="h5">HTML5</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/css_logo.png" alt="CSS3" class="skill-logo">
+          <h5 class="h5">CSS3</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/js logo.png" alt="JavaScript" class="skill-logo">
+          <h5 class="h5">JavaScript</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="skills-group">
+    <h4 class="h4">Database Management</h4>
+    <ul class="skills-list content-card">
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/mysql_logo.png" alt="MySQL" class="skill-logo">
+          <h5 class="h5">MySQL</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/dbms_logo-.png" alt="DBMS" class="skill-logo">
+          <h5 class="h5">DBMS</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="skills-group">
+    <h4 class="h4">Tools & Platforms</h4>
+    <ul class="skills-list content-card">
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/power bi logo.webp" alt="Power BI" class="skill-logo">
+          <h5 class="h5">Power BI</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/Git logo.png" alt="Git" class="skill-logo">
+          <h5 class="h5">Git</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/figma-logo.png" alt="Figma" class="skill-logo">
+          <h5 class="h5">Figma</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/vs.webp" alt="VS Code" class="skill-logo">
+          <h5 class="h5">VS Code</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/github logo.webp" alt="GitHub" class="skill-logo">
+          <h5 class="h5">GitHub</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/intellij logo.png" alt="IntelliJ" class="skill-logo">
+          <h5 class="h5">IntelliJ</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/Jupyter_logo.svg.png" alt="Jupyter" class="skill-logo">
+          <h5 class="h5">Jupyter</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/Microsoft_Excel-Logo.wine.png" alt="MS Excel" class="skill-logo">
+          <h5 class="h5">MS Excel</h5>
+        </div>
+      </li>
+      </ul>
+  </div>
+       <div class="skills-group">
+    <h4 class="h4">Frameworks & technologies</h4>
+    <ul class="skills-list content-card">
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/Tensor_logo.svg (1).png" alt="TensorFlow" class="skill-logo">
+          <h5 class="h5">TensorFlow</h5>
+        </div>
+      </li>
+       <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/gen_logo.png" alt="Generative AI" class="skill-logo">
+          <h5 class="h5">Generative AI</h5>
+        </div>
+      </li>
+       <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/Agile-in-SDLC-logo.png" alt="Agile SDLC" class="skill-logo">
+          <h5 class="h5">Agile SDLC</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/debugging_logo.png" alt="Debugging" class="skill-logo">
+          <h5 class="h5">Debugging</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/unit_testing_logo.png" alt="Unit Testing" class="skill-logo">
+          <h5 class="h5">Unit Testing</h5>
+        </div>
+      </li>
+  <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/api logo.webp" alt="Rest API" class="skill-logo">
+          <h5 class="h5">Rest API</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+         <div class="skills-group">
+    <h4 class="h4">Cloud & AI/ML</h4>
+    <ul class="skills-list content-card">
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/aws logo.webp" alt="AWS" class="skill-logo">
+          <h5 class="h5">AWS</h5>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <img src="images/ml_algorithms_logo.png" alt="ML Algorithms" class="skill-logo">
+          <h5 class="h5">ML Algorithms</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Full Stack</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Full Stack</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="web development">
+  <a href="#">
+<figure class="project-img project-img-swap">
+  <button class="project-eye-btn"
+    data-imgs='["images/netflix1.jpeg","images/netflix image.webp"]'
+    type="button">
+    <div class="project-item-icon-box">
+      <ion-icon name="eye-outline"></ion-icon>
+    </div>
+  </button>
+  <img src="images/netflix1.jpeg" alt="Project Main" class="main-img" loading="lazy">
+  <img src="images/netflix image.webp" alt="Project Hover" class="hover-img" loading="lazy">
+</figure>
+    <h3 class="project-title">Netflix Clone UX</h3>
+    <p class="project-category">Web development</p>
+  </a>
+  <a href="https://github.com/khaderjeelani/Netflix-clone-page-using-html-css" target="_blank" class="source-code-btn">Source Code</a>
+</li>
+            <li class="project-item active" data-filter-item data-category="web development">
+  <a href="#">
+  <figure class="project-img project-img-swap">
+  <button class="project-eye-btn"
+    data-imgs='["images/portfolio 1.jpg","images/PORTFOLIO2.jpg"]'
+    type="button">
+    <div class="project-item-icon-box">
+      <ion-icon name="eye-outline"></ion-icon>
+    </div>
+  </button>
+  <img src="images/portfolio 1.jpg" alt="Project Main" class="main-img" loading="lazy">
+  <img src="images/PORTFOLIO2.jpg" alt="Project Hover" class="hover-img" loading="lazy">
+</figure>
+    <h3 class="project-title">Personal Portfolio</h3>
+    <p class="project-category">Web development</p>
+  </a>
+  <a href="https://github.com/khaderjeelani/Personal-Portfolio" target="_blank" class="source-code-btn">Source Code</a>
+</li>
+         
+            <li class="project-item active" data-filter-item data-category="Applications">
+  <a href="#">
+<figure class="project-img project-img-swap">
+  <button class="project-eye-btn"
+    data-imgs='["images/Snake-Game pro image.jpg","images/slither quest.webp"]'
+    type="button">
+    <div class="project-item-icon-box">
+      <ion-icon name="eye-outline"></ion-icon>
+    </div>                        
+  </button>
+  <img src="images/Snake-Game pro image.jpg" alt="Project Main" class="main-img" loading="lazy">
+  <img src="images/slither quest.webp" alt="Project Hover" class="hover-img" loading="lazy">
+</figure>
+    <h3 class="project-title">Slither Quest(A Snake Game)</h3>
+    <p class="project-category">Applications</p>
+  </a>
+  <a href="https://github.com/khaderjeelani/Slither-Quest-The-Snake-Game-" target="_blank" class="source-code-btn">Source Code</a>
+</li>
+
+ <li class="project-item active" data-filter-item data-category="Full Stack">
+  <a href="#">
+<figure class="project-img project-img-swap">
+  <button class="project-eye-btn"
+    data-imgs='["images/ai-in-healthcare.jpg","images/ai driven healthcare image2.webp"]'
+    type="button">
+    <div class="project-item-icon-box">
+      <ion-icon name="eye-outline"></ion-icon>
+    </div>
+  </button>
+  <img src="images/ai-in-healthcare.jpg" alt="Project Main" class="main-img" loading="lazy">
+  <img src="images/ai driven healthcare image2.webp" alt="Project Hover" class="hover-img" loading="lazy">
+</figure>
+    <h3 class="project-title">AI_Driven HealthCare System</h3>
+    <p class="project-category">Full Stack</p>
+  </a>
+  <a href="https://github.com/khaderjeelani/AI-healthcare-system" target="_blank" class="source-code-btn">Source Code</a>
+</li>
+
+ <li class="project-item active" data-filter-item data-category="Full Stack">
+  <a href="#">
+<figure class="project-img project-img-swap">
+  <button class="project-eye-btn"
+    data-imgs='["images/weather 1.jpg","images/weather image.jpg"]'
+    type="button">
+    <div class="project-item-icon-box">
+      <ion-icon name="eye-outline"></ion-icon>
+    </div>
+  </button>
+  <img src="images/weather 1.jpg" alt="Project Main" class="main-img" loading="lazy">
+  <img src="images/weather image.jpg" alt="Project Hover" class="hover-img" loading="lazy">
+</figure>
+    <h3 class="project-title">Weather Forcast</h3>
+    <p class="project-category">Full Stack</p>
+  </a>
+  <a href="https://github.com/khaderjeelani/weather-forecasting" target="_blank" class="source-code-btn">Source Code</a>
+</li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Certificates
+      -->
+
+      <article class="certificates" data-page="certificates">
+
+  <header>
+    <h2 class="h2 article-title">Certificates</h2>
+  </header>
+
+  <section class="certificates-list">
+
+    <ul class="certificates-list-ul">
+
+      <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/hackerrank sde inter certificate.jpg" alt="Software engineer Intern" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+
+            <div class="certificate-meta">
+              <p class="certificate-category">Intern</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">June 25, 2025</time>
+            </div>
+
+            <h3 class="h3 certificate-title">HackerRank</h3>
+
+            <p class="certificate-text">
+              Software engineer Intern.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+      <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/hp cyber security cert.jpg" alt="Introduction to Cyber Security Awareness" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+
+            <div class="certificate-meta">
+              <p class="certificate-category">Course</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">June 11, 2025</time>
+            </div>
+
+            <h3 class="h3 certificate-title">HP LIFE</h3>
+
+            <p class="certificate-text">
+              Introduction to Cyber Security Awareness.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+      <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/Gen Ai cert.jpg" alt="Career Essentials in Generative AI" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+            <div class="certificate-meta">
+              <p class="certificate-category">Course</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">May 23, 2024</time>
+            </div>
+
+            <h3 class="h3 certificate-title">Microsoft & LinkedIn</h3>
+
+            <p class="certificate-text">
+             Career Essentials in Generative AI.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+       <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/hp agile porject cert.jpg" alt="Agile Project Management" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+            <div class="certificate-meta">
+              <p class="certificate-category">Course</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">Sep 17, 2024</time>
+            </div>
+
+            <h3 class="h3 certificate-title">HP LIFE</h3>
+
+            <p class="certificate-text">
+             Agile Project Management.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+       <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/data analyst aceenture cert.jpg" alt="Data Analytics and Visualization Job Simulation" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+            <div class="certificate-meta">
+              <p class="certificate-category">Course</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">July 17, 2024</time>
+            </div>
+
+            <h3 class="h3 certificate-title">Accenture</h3>
+
+            <p class="certificate-text">
+             Data Analytics and Visualization Job Simulation.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+       <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/project management accenture cert.jpg" alt="Project Management Job Simulation" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+            <div class="certificate-meta">
+              <p class="certificate-category">Course</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">July 17, 2024</time>
+            </div>
+
+            <h3 class="h3 certificate-title">Accenture</h3>
+
+            <p class="certificate-text">
+             Project Management Job Simulation.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+       <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/python hackerrank.png" alt="Python (Basic)" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+            <div class="certificate-meta">
+              <p class="certificate-category">HackerRank Skill Certification Test</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">June 20, 2024</time>
+            </div>
+
+            <h3 class="h3 certificate-title">HackerRank</h3>
+
+            <p class="certificate-text">
+            Python (Basic).
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+       <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/java hackerrank cert.png" alt="Java (Basic)" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+            <div class="certificate-meta">
+              <p class="certificate-category">HackerRank Skill Certification Test</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">April 26, 2024</time>
+            </div>
+
+            <h3 class="h3 certificate-title">HackerRank</h3>
+
+            <p class="certificate-text">
+             Java (Basic).
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+       <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/uiux cert.jpg" alt="UI/UX for Beginners" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+            <div class="certificate-meta">
+              <p class="certificate-category">Course</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">April 14, 2024</time>
+            </div>
+
+            <h3 class="h3 certificate-title">Great Learning Academy</h3>
+
+            <p class="certificate-text">
+            UI/UX for Beginners.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+       <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/web development.jpg" alt="Web Development InterShip" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+            <div class="certificate-meta">
+              <p class="certificate-category">InternShip</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">Dec 13, 2023</time>
+            </div>
+
+            <h3 class="h3 certificate-title">CodersCave</h3>
+
+            <p class="certificate-text">
+             Web Development InterShip.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      
+       <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/java intern cert.jpg" alt="Java Development InterShip" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+            <div class="certificate-meta">
+              <p class="certificate-category">InternShip</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">June 20, 2024</time>
+            </div>
+
+            <h3 class="h3 certificate-title">Oasis Infobyte</h3>
+
+            <p class="certificate-text">
+             Java Development InterShip.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      
+       <li class="certificate-item">
+        <a href="#">
+
+          <figure class="certificate-banner-box">
+            <button class="certificate-eye-btn" type="button">
+              <div class="certificate-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </button>
+            <img src="images/AIML CERT.jpg" alt="AIML Virtual InterShip" loading="lazy" />
+          </figure>
+
+          <div class="certificate-content">
+            <div class="certificate-meta">
+              <p class="certificate-category">InternShip</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-02-23">April 2, 2024</time>
+            </div>
+
+            <h3 class="h3 certificate-title">INDIA Edu Program ( Google For Developers) AICTE</h3>
+
+            <p class="certificate-text">
+           AIML Virtual InterShip.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+             
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.131276409809!2d78.5456734746263!3d17.357415003668958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98bec77a6937%3A0xd68c2eb8bf5c5731!2sNTR%20Nagar%20Colony%20Rd%2C%20NTR%20Nagar%2C%20L.%20B.%20Nagar%2C%20Hyderabad%2C%20Telangana%20500074!5e0!3m2!1sen!2sin!4v1754477048619!5m2!1sen!2sin"
+             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+             
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- Image Modal for Project Preview -->
+<div id="img-modal" class="img-modal">
+  <span class="img-modal-close">&times;</span>
+  <span class="img-modal-arrow img-modal-arrow-left">&#8592;</span>
+  <img class="img-modal-content" id="img-modal-img" src="" alt="">
+  <span class="img-modal-arrow img-modal-arrow-right">&#8594;</span>
+</div>
+
+<!-- Image Modal for Certificate Preview -->
+<div id="cert-img-modal" class="img-modal">
+  <span class="cert-img-modal-close">&times;</span>
+  <img class="img-modal-content" id="cert-img-modal-img" src="" alt="">
+</div>
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+</body>
+
+</html>
